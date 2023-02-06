@@ -1,0 +1,73 @@
+#PYTHON FLOW CONTROL STATEMENTS,, QUESTIONS   
+
+#Write a program to find greatest of three numbers
+# a=int(input("enter the 1st number"))
+# b=int(input("enter the 2nd number"))
+# c=int(input("enter the 3rd number"))
+# if (a>=b):
+#     if (a>=c):
+#         print("largest is ",a)
+#     else:
+#         print("largest is ",c)
+# else: 
+#     if (b>=c):
+#         print("largest is ",b)
+#     else :
+#         print("largest is ",c)
+
+#Write a program to find whether a given number is even or not. 
+# a=int(input("enter the number"))
+# if (a%2==0):
+#     print("number is even ")
+# else :
+#     print("number is odd")
+
+#Write a program to whether a given number is prime or not.
+# a=int(input("enter the number"))
+# c=0
+# for i in range (1,a+1):
+#      if (a%i==0):
+#          c=c+1
+         
+# if (c==2):
+#      print(a, "is a prime number")
+# else :
+#      print(a,"is not a prime number")
+
+#Write a program to find whether a given string or number is palindrome or not
+
+# a=int (input("enter the number"))
+# s=a
+# rev=0
+# while(a>0):
+#     r=a%10
+#     rev=rev*10+r
+#     a=a//10
+# if (s==rev):
+#     print("number is palindrome")
+# else :
+#     print("number is not palindrome")
+
+#Given 3 sides, WAP to find whether a given triangle is right angled or not.
+
+# a=int (input("enter the 1st side of triangle"))
+# b=int (input("enter the 2nd side of triangle"))
+# c=int (input("enter the 3rd side of triangle"))
+# mx=0
+# if (a>b and a>c):
+#     mx=a
+#     m=b
+#     n=c
+# elif(b>a and b>c):
+#     mx=b
+#     m=a
+#     n=c
+# else :
+#     mx=c
+#     m=a
+#     n=b
+# if ((mx**2)==(m**2)+(n**2)):
+#     print("its a right angled triangle ")
+# else :
+#     print("its not a right angled triangle ")
+
